@@ -43,9 +43,5 @@ public class MainActivity extends AppCompatActivity implements AddMovieListener 
         movieAdapter.notifyDataSetChanged();
     }
 
-    @Override
-    public void removeMovie(Movie mov) {
-        movieAdapter.removeMovie(mov);
-        movieAdapter.notifyDataSetChanged();
-    }
+
 }

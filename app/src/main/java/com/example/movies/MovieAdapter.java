@@ -38,6 +38,7 @@ public class MovieAdapter extends RecyclerView.Adapter<ViewHolder> {
         holder.setGenre(mov.getGenre());
         holder.setYear(mov.getYear());
         holder.setRating(mov.getRating());
+        
         holder.getBtnRemove().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
